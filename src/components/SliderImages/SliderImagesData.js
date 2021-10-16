@@ -1,10 +1,10 @@
 export const Sliderdata = [
     {
-        path: "../Images/JardimgarveLogo.jpg",
+        path: require("../Images/JardimgarveLogo.jpg").default,
         alt: "1"
     },
     {
-        path: "../Images/ola.png",
+        path: require("../Images/ola.png").default,
         alt: "2"
     }
 ]

@@ -25,7 +25,7 @@ const Navbar = () => {
                     <img src={logo} alt="Logo" width="100" height="100"/>
                 </Link>
                 <Link to='#' className="menu-cart">
-                    <BsCart onClick={showSidebar} size={50} color="white"/>
+                    
                 </Link>
             </div>  
             

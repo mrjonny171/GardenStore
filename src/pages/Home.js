@@ -8,13 +8,10 @@ import "./Home.css"
 const Home = () => {
     return (
         <>
-        <AliceCarousel autoPlay autoPlayInterval="3000">
-                {Sliderdata.map(item =>{
+        <AliceCarousel autoPlay autoPlayInterval="5000" fadeOutAnimation={true} disableButtonsControls infinite>
+                {Sliderdata.map((item,index) =>{
                     return(
-                        <>
-                        <img src={item.path} alt={item.alt} className="sliderimg"/>
-                        <p>ola</p>
-                        </>
+                        <img key={index} src={item.path}  alt={item.alt} className="sliderimg"/>
                     )
                 }
 
